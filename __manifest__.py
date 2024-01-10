@@ -18,8 +18,8 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'wizard/views.xml',
+        'security/ir.model.access.csv',
+        'wizard/mass_payments_group.xml',
     ],
     'demo': [],
 }

@@ -3,7 +3,7 @@
 from odoo import models, fields, api
 
 
-class MassPaymentsGroup(models.Model):
+class MassPaymentsGroup(models.TransientModel):
     _name = 'mass.payments.group'
     _description = 'Mass Payments Group'
 

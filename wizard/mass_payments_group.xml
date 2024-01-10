@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record id="mass_payments_group" model="ir.ui.view">
+       <field name="name">mass.payments.group.form</field>
+       <field name="model">mass.payments.group</field>
+       <field name="arch" type="xml">
+          <form string="Register Mass Payment">
+             <group>
+                <field name="journal_id"/>
+             </group>
+          </form>
+       </field>
+    </record>
+
+    <!--record id="mass_payments_group_wizard_action" model="ir.actions.act_window">
+            <field name="name">Register Mass Payment</field>
+            <field name="res_model">mass.payments.group</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+     </record-->
+  </data>
+</odoo>
