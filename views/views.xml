@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+    <record id="mass_payments_group" model="ir.ui.view">
+       <field name="name">mass.payments.group</field>
+       <field name="model">mass.payments.group</field>
+       <field name="arch" type="xml">
+          <form>
+             <group>
+                <field name="journal_id"/>
+             </group>
+          </form>
+       </field>
+    </record>
+  </data>
+</odoo>
